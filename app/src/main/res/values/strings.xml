@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GoParking</string>
+    <string name="carNum">車位</string>>
+    <string name="distance">距離</string>
+    <string name="money">費用</string>
+    <string name="choice">請選擇</string>
+    <string name="choice_distance">想搜尋的距離範圍</string>
+    <string name="choice_money">費用選擇</string>
+    <string name="min_dist">500m</string>
+    <string name="max_dist">2km</string>
+    <string name="twenty">20元/hr</string>
+    <string name="thirty">30元/hr</string>
+    <string name="forty">40元/hr</string>
+    <string name="fifty">50元/hr</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_charge_map">ChargeMap</string>
+</resources>

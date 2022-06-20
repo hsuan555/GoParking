@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <FrameLayout
+        android:id="@+id/top_title"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/title">
+
+        <TextView
+            android:id="@+id/txv_Goparking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/title"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/person"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </FrameLayout>>
+
+    <ImageButton
+        android:id="@+id/showInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="83dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_list"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/motor"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="81dp"
+        android:minWidth="60dp"
+        android:minHeight="48dp"
+        android:src="@drawable/two_wheeler"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="144dp"
+        android:minWidth="60dp"
+        android:minHeight="40dp"
+        android:src="@drawable/charge"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/filter">
+
+        <Button
+            android:id="@+id/btn_distance"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape"
+            android:text="@string/distance"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_money"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape"
+            android:text="@string/money"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/choice"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/choice"
+            android:textSize="18dp" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

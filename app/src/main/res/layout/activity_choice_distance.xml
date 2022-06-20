@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choice_distance">
+
+    <FrameLayout
+        android:id="@+id/pop_distance"
+        android:layout_width="391dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/filter">
+
+
+        <TextView
+            android:id="@+id/init_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/choice_distance"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <SeekBar
+            android:id="@+id/distanceBar"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp" />
+
+        <TextView
+            android:id="@+id/min_dist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="58dp"
+            android:text="@string/min_dist" />
+
+        <TextView
+            android:id="@+id/max_dist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="58dp"
+            android:text="@string/max_dist" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
